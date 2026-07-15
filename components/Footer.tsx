@@ -7,11 +7,12 @@ export default function Footer() {
         <p className="text-sm text-gray-500">
           &copy; {new Date().getFullYear()} MeetingCost by ZeroOrigine. Better meetings, not fewer meetings.
         </p>
-        <div className="flex gap-6">
+        <div className="flex flex-wrap justify-center gap-6 sm:justify-end">
           <Link href="/calculator" className="text-sm text-gray-500 hover:text-gray-700">Calculator</Link>
           <Link href="/score" className="text-sm text-gray-500 hover:text-gray-700">Score</Link>
           <Link href="/insights" className="text-sm text-gray-500 hover:text-gray-700">Insights</Link>
           <Link href="/waitlist" className="text-sm text-gray-500 hover:text-gray-700">Waitlist</Link>
+          <Link href="/about" className="text-sm text-gray-500 hover:text-gray-700">Born autonomously at ZeroOrigine</Link>
         </div>
       </div>
     </footer>
