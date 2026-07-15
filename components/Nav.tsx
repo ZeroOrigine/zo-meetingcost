@@ -17,6 +17,9 @@ export default function Nav() {
           <Link href="/insights" className="text-sm text-gray-600 hover:text-gray-900">
             Insights
           </Link>
+        <Link href="/about" className="text-sm text-gray-600 hover:text-gray-900">
+          About
+        </Link>
           <Link href="/waitlist" className="btn-primary !py-2 !px-4 !text-xs">
             Get Early Access
           </Link>
